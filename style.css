@@ -1,6 +1,9 @@
 .email__input input[type=email] {
   padding-left: 40px;
+}
 
+.password__input input[type=password] {
+  padding-left: 40px;
 }
 
 .email__input {
@@ -9,9 +12,24 @@
 
 .email__input i{
   position: absolute;
-  size: 20px;
+  font-size: 1.5rem;
   left: 0;
-  top: 8px;
-  padding: 9px 8px;
+  padding: 7px 10px;
+  color: #aaa;
+}
+
+.password__input input[type=password] {
+  padding-left: 40px;
+}
+
+.password__input {
+  position: relative;
+}
+
+.password__input i{
+  position: absolute;
+  font-size: 1.6rem;
+  left: 0;
+  padding: 7px 10px;
   color: #aaa;
 }
